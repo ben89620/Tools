@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+scan-process/
+
+# Config with credentials (use config.yaml.example as template)
+config.yaml
+
+# Scan output reports
+scan-report/*.json
+
+#Claude
+claude-*.log
+CLAUDE.md

@@ -1,0 +1,16 @@
+# Optional: Slack Incoming Webhook URL for alerts
+ slack_webhook_url: "https://hooks.slack.com/services/XXXXXXXX"
+
+# Optional: which severity levels trigger a Slack alert (default: all three)
+ slack_alert_severity:
+   - CRITICAL
+   - HIGH
+   - MEDIUM
+
+ machines:
+  - ip: "IP"
+    username: "Username"
+    password: "Password"
+    #optional: if not specified
+    port: 22
+    label: "Machine Name"
